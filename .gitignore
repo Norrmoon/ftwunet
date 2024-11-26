@@ -1,0 +1,19 @@
+# Virtuális környezet mappa
+unet/
+
+# Ideiglenes és fordított fájlok
+*.pyc
+__pycache__/
+
+# Jupyter notebook checkpointok
+.ipynb_checkpoints/
+
+# Nem szükséges Python fájlok
+coco.py
+coco.teszt.py
+coco2.0.py
+FTW.py
+HelloWorld.py
+numpy_tutorial_ipynb_másolata.ipynb
+python_tutorial_ipynb_másolata.ipynb
+Teszt.py
