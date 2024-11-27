@@ -557,6 +557,9 @@ from tensorflow.python.keras.callbacks import TensorBoard
 log_dir = "./logs"
 tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
 
+#log_dir = "./logs/new_run"
+#tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
+
 # Tanítás TensorBoard logokkal
 with tf.device('/GPU:0'):
     train_steps =  int(len(os.listdir( f"{user_path.replace(os.sep, '/')}/Downloads/ftw-dataset/train_mask"))/batch_size)
